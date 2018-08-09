@@ -11,7 +11,7 @@ namespace DemoViews
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+			MainPage = new IntentTableView();
         }
 
         protected override void OnStart()

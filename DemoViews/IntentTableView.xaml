@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="DemoViews.IntentTableView">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+         <!--<TableView Intent="Menu">
+            <TableRoot>
+                <TableSection Title="First Section">
+                    <TextCell Text="TextCell" Detail="TextCell Detail" />
+                    <EntryCell Label="Entry Label" Text="EntryCell Text" />
+                    <SwitchCell Text="SwitchCell Text" />
+                    <ImageCell Text="ImageCell Text" Detail="ImageCell Detail" ImageSource="XamarinLogo.png" />
+                </TableSection>
+                <TableSection Title="Second Section">
+                    <TextCell Text="TextCell" Detail="TextCell Detail" />
+                    <EntryCell Label="Entry Label" Text="EntryCell Text" />
+                    <SwitchCell Text="SwitchCell Text" />
+                    <ImageCell Text="ImageCell Text" Detail="ImageCell Detail" ImageSource="XamarinLogo.png" />
+                </TableSection>
+            </TableRoot>
+        </TableView>-->
+        <TableView Intent="Form">
+            <TableRoot>
+                <TableSection Title="Primer Sección">
+                    <TextCell Detail="Departamento" />
+                    <EntryCell Label="Area"
+                               Placeholder="Ingrese Area"/>
+                    <SwitchCell Text="Provisional" />
+                    <ImageCell Detail="Clientes" 
+                               ImageSource="customer.png" />
+                </TableSection>
+                <TableSection Title="Segunda Sección">
+                    <TextCell  
+                              Detail="Profesión" />
+                    <EntryCell Label="Especialidad"
+                               Placeholder="Ingrese Especialidad"/>
+                    <SwitchCell Text="Graduado" />
+                    <ImageCell Detail="Logo" 
+                               ImageSource="Default.png" />
+                </TableSection>
+            </TableRoot>
+        </TableView>
+     </StackLayout>
+ </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
